@@ -75,7 +75,7 @@ In this case, the function parameter `q` will be optional, and will be `None` by
 !!! note
     FastAPI will know that `q` is optional because of the `= None`.
 
-    The `Optional` in `Optional[str]` is not used by FastAPI (FastAPI will only use the `str` part), but the `Optional[str]` will let your editor help you finding errors in your code.
+    The `Optional` in `Optional[str]` is not used by FastAPI (FastAPI will only use the `str` part), but the `Optional[str]` will let your editor help you find errors in your code.
 
 ## Query parameter type conversion
 
